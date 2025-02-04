@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macaquinho do Pix - Apostas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Macaquinho do Pix - Apostas</h1>
+    </header>
+    
+    <main>
+        <section class="betting-area">
+            <h2>Faça sua aposta!</h2>
+            <div>
+                <label for="betAmount">Valor da Aposta (em Pix):</label>
+                <input type="number" id="betAmount" placeholder="Ex: 10">
+            </div>
+            <div>
+                <label for="betChoice">Escolha um número (1 a 5):</label>
+                <input type="number" id="betChoice" min="1" max="5" placeholder="Ex: 3">
+            </div>
+            <button id="placeBet">Apostar</button>
+        </section>
+        
+        <section class="result-area">
+            <h3 id="resultMessage"></h3>
+            <img id="monkeyImage" src="monkey.png" alt="Macaquinho do Pix" style="display: none;">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Macaquinho do Pix - Apostas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

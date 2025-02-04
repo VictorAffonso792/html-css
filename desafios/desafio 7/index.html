@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Voçê esta vendo a imagem completa?Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F60D;</p>
+    <picture>
+        <source media="(max-width:350px )" srcset="imagens/Viktor-foto-pp.jpg">
+        <source media="(max-width:500px )" srcset="imagens/Viktor-foto-p.jpg">
+        <source media="(max-width:850px )" srcset="imagens/Viktor-foto-m.jpg" type="">
+       <img src="imagens/Viktor_5.jpg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
